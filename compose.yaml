@@ -1,0 +1,10 @@
+services:
+  homefull:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      HOMEFULL_DATA: /data
+      LLM_PROVIDER: ${HOMEFULL_CONTAINER_LLM_PROVIDER:-fake}
+    volumes:
+      - ./data:/data

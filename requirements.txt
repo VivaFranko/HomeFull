@@ -1,0 +1,12 @@
+python-telegram-bot[job-queue]==21.11.1
+APScheduler==3.11.3
+requests==2.34.2
+beautifulsoup4==4.15.0
+pandas==3.0.3
+numpy==2.4.6
+lightgbm==4.7.0
+scikit-learn==1.8.0
+joblib==1.5.3
+anthropic==2.5.0
+playwright==1.63.0
+tzdata>=2024.1
